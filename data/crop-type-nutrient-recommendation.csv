@@ -1,0 +1,11 @@
+Header//Taken from Musanase et al 2023,,,,
+Crop,Nitrogen,Phosphorus,Potassium,Suitable_pH_Range
+Maize,120-150,60-80,40-60,5.5-7.0
+Sorghum,100-120,50-70,40-60,5.5-7.5
+Cassava,60-90,30-40,50-70,5.0-6.5
+Beans,60-90,20-30,30-40,5.5-7.0
+Potato,80-100,40-60,60-80,5.0-6.5
+Coffee,60-80,20-30,40-60,5.5-6.5
+Banana,100-120,60-80,60-80,5.0-7.0
+Kidney Beans,60-90,20-30,30-40,5.5-7.0
+Onion,40-60,20-30,30-40,6.0-7.0
