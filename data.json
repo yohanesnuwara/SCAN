@@ -1,0 +1,88 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+            "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+            "context": [""]
+        },
+        {
+            "tag": "historical",
+            "patterns": ["I want to check historical data", "How is the data yesterday?", "check historical"],
+            "responses": ["Which sector do you want to check? (A/B)", "Which sector? (A/B)", "Provide the sector (A/B)"],
+            "context": ["check_historical_A", "check_historical_B"]
+        },
+        {
+            "tag": "check_historical_A",
+            "patterns": ["Historical for sector A", "sector A", "check sector A"],
+            "responses": ["Checking historical data for Sector A"],
+            "context": [""]
+        },
+        {
+            "tag": "check_historical_B",
+            "patterns": ["Historical for sector B", "sector B", "check sector B"],
+            "responses": ["Checking historical data for Sector B"],
+            "context": [""]
+        },
+        {
+            "tag": "current_data",
+            "patterns": ["I want to check current data", "How is the data today?", "check current"],
+            "responses": ["Which sector do you want to check? (A/B)", "Which sector? (A/B)", "Provide the sector (A/B)"],
+            "context": ["check_current_data_A", "check_current_data_A"]
+        },
+        {
+            "tag": "check_current_data_A",
+            "patterns": ["Current data for sector A", "sector A", "check sector A"],
+            "responses": ["Loading current data for Sector A"],
+            "context": [""]
+        },
+        {
+            "tag": "check_current_data_B",
+            "patterns": ["Current data for sector B", "sector B", "check sector B"],
+            "responses": ["Loading current data for Sector B"],
+            "context": [""]
+        },
+        {
+            "tag": "recommend_A",
+            "patterns": ["Recommend for sector A", "what to do for sector A", "suggest for sector A"],
+            "responses": ["Loading NPK status and recommend for sector A"],
+            "context": [""]
+        },
+        {
+            "tag": "recommend_B",
+            "patterns": ["Recommend for sector B", "What to do for sector B", "suggest for sector B"],
+            "responses": ["Loading NPK status and recommend for sector B"],
+            "context": [""]
+        },
+        {
+            "tag": "forecasting",
+            "patterns": ["Forecast weather for tomorrow", "Please forecast weather", "forecast weather"],
+            "responses": ["Generating weather forecast"],
+            "context": ["do_forecasting"]
+        },
+        {
+            "tag": "market_analysis",
+            "patterns": ["Forecast market price for tomorrow", "Please forecast market price", "forecast market"],
+            "responses": ["Generating market price forecast"],
+            "context": ["do_market"]
+        }
+    ]
+}
