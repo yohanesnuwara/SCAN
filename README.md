@@ -4,10 +4,10 @@ SCAN (Smart Crop and Nurture) is an app that allows farmer grow better crop with
 ![scan-chatbot](https://github.com/yohanesnuwara/SCAN/assets/51282928/e9e303e2-2bff-4a6b-8204-9f48f2c3d0a3)
 
 ## Requirements
-* Tensorflow>=2.16.1
-* Keras>=3.3.3
-* NLTK>=3.8.1
-* Flask>=3.0.3
+* Tensorflow==2.15.0
+* Keras==2.15.0
+* NLTK==3.8.1
+* Flask==3.0.3
 
 ## How to run the app in VS Code (Desktop version)
 1. Download this repository as ZIP file
