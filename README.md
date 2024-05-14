@@ -11,7 +11,7 @@ SCAN (Smart Crop and Nurture) is an app that allows farmer grow better crop with
 * Flask==3.0.3
 
 ## How to run the app in VS Code (Desktop version)
-1. Download this repository as ZIP file
+1. Download the [ZIP file](https://github.com/yohanesnuwara/SCAN/blob/main/SCAN.zip)
 2. Extract the ZIP file into preferred directory
 3. Install the above requirements
 4. Open terminal and go to the directory ```cd SCAN```
